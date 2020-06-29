@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1>User Data </h1>
+    <form action="thankyou.html" method="GET" >
+        <label for="username">Username: </label>
+        <input type="text" id="username" required name="username" > <br> <br>
+
+        <label for="pswd">Password: </label>
+        <input type="password" id="pswd"> <br> <br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email"> <br> <br>
+
+        <p>Select your gender: </p>
+            
+        <label for="male" >Male</label>
+        <input type="radio" id="male" name="gender" value="male"> <br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female"><br>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender"><br> <br>
+
+        <label for="age groups">Your age group</label>
+        <select name="Age-groups" id="age groups" >
+            <option value="10-15">10-15</option>
+            <option value="16-25">16-25</option>
+            <option value="26-50">26-50</option>
+            <option value="50+">50+</option>
+        </select> <br> <br>
+
+        <label for="date">Select your birth date: </label>
+        <input type="date" name="Date" id="date"><br> <br>
+
+        <label for="file">Upload your Resume here. </label>
+        <input type="file" name="File chosen" id="file"><br> <br>
+
+        <textarea name="description" id="" cols="30" rows="5" placeholder="Describe yourself"></textarea><br><br>
+        <!-- <input type="color" name="" id=""> -->    <!-- This is for choosing color -->
+        
+
+        <input type="submit" value="Sign In" >
+    </form>
+</body>
+</html>
